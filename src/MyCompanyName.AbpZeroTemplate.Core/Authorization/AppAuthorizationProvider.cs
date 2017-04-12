@@ -81,6 +81,8 @@ namespace MyCompanyName.AbpZeroTemplate.Authorization
             administration.CreateChildPermission(AppPermissions.Pages_Administration_Host_Maintenance, L("Maintenance"), multiTenancySides: _isMultiTenancyEnabled ? MultiTenancySides.Host : MultiTenancySides.Tenant);
 
             administration.CreateChildPermission(AppPermissions.Pages_Administration_HangfireDashboard, L("HangfireDashboard"), multiTenancySides: _isMultiTenancyEnabled ? MultiTenancySides.Host : MultiTenancySides.Tenant);
+
+            administration.CreateChildPermission(AppPermissions.Pages_Administration_Test, L("Test"));//L("Test")是获取语言文件中的键，这里只配置简体中文
         }
 
         private static ILocalizableString L(string name)

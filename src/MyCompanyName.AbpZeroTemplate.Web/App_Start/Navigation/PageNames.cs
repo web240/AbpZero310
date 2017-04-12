@@ -12,6 +12,9 @@ namespace MyCompanyName.AbpZeroTemplate.Web.Navigation
                 public const string AuditLogs = "Administration.AuditLogs";
                 public const string OrganizationUnits = "Administration.OrganizationUnits";
                 public const string Languages = "Administration.Languages";
+
+                public const string Shop = "Shop";
+                public const string Category = "Category";
             }
 
             public static class Host
@@ -26,6 +29,7 @@ namespace MyCompanyName.AbpZeroTemplate.Web.Navigation
             {
                 public const string Dashboard = "Dashboard.Tenant";
                 public const string Settings = "Administration.Settings.Tenant";
+                public const string Test = "Test";//这里是添加的常量
             }
         }
 

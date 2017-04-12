@@ -280,5 +280,8 @@
     <text name="LookingForMpaVersion" value="查找多页面应用版本号" />
     <text name="LookingForSpaVersion" value="查找单页面应用版本号" />
     <text name="ThisLanguageAlreadyExists" value="这种语言已经存在!" />
+    <text name="Test" value="测试" />
+    <text name="Shop" value="商店" />
+    <text name="CategoryManager" value="分类管理" />
   </texts>
 </localizationDictionary>
