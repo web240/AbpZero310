@@ -3022,6 +3022,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Wiki\start.md" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Areas\Mpa\Startup\UserMenuItemExtensions.cs" />
